@@ -23,7 +23,7 @@ import tempfile
 from dotenv import load_dotenv
 from train import ModelTrainer, HyperparameterManager, FeaturePreprocessor, DataSplitter, MetricsCalculator
 
-TARGET = "Usage_kWh"
+
 
 # Model configurations - will be loaded from params.yaml
 TARGET = "Usage_kWh"
